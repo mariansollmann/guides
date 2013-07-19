@@ -31,6 +31,6 @@ Further reading: http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html
 - Master is always deployable
 - Check the latest CI test results at http://ci.cargomedia.ch:8080/
 - Changes should be deployed quickly
-- Changes since last release: Grep commits in the application as well as in CM with `git log --grep="Merge pull request" --pretty=format:'- %b (%an)' {commit SHA}.. | sed 's/Merge pull request \(#[0-9]*\) from [^ ]*/\1/'`
+- Changes since last release: Grep commits in the application as well as in CM with `git log --grep="Merge pull request" --pretty=format:'- %s %b (%an)' {commit SHA}.. | sed 's/Merge pull request \(#[0-9]*\) from [^ ]*/\1/'`
 - Change-owners should be available during release
 - Monitor infrastructure performance, application performance and logs
