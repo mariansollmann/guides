@@ -2,6 +2,7 @@
 
 * [Workflow](/workflow)
 * [Style](/style)
+* [Tools](/tools)
 
 We honour the following principles for all production code. These are defaults. If we cannot apply them (try hard!) we can justify why.
 * We write automated tests
