@@ -34,7 +34,7 @@ Further reading: http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html
 - Changes since last release: Grep commits in the application as well as in CM with
 
 ```bash
-git log --grep='Merge pull request' --pretty=format:'- %s %b (merged by @%an)' | sed 's/Merge pull request \(#[0-9]*\) from \([^\/]*\)\/[^ ]*/\1 (@\2)/' | less
+git log --grep='Merge pull request' --pretty=format:'- %s %b (merged by %an)' | sed 's/Merge pull request \(#[0-9]*\) from \([^\/]*\)\/[^ ]*/\1 (\2)/' | less
 ```
 - Change-owners should be available during release
 - Monitor infrastructure performance, application performance and logs
