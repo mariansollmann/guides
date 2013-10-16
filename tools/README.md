@@ -7,7 +7,7 @@ Change table-schemas without locking the table with [Percona's](http://www.perco
 ### Usage
 
 ```shell
-pt-online-schema-change --execute --critical-load="Threads_running:500" --max-load "Threads_running:250" --charset=utf8 --user=root -p [password] --database=[database] t=[table] --alter='ADD `userId` int(10) unsigned NOT NULL DEFAULT '0', ADD `createStamp` int(10) unsigned NOT NULL DEFAULT '0', ADD KEY `createStamp` (`createStamp`), ADD KEY `userId` (`userId`)'
+pt-online-schema-change --execute --critical-load="Threads_running:500" --max-load "Threads_running:250" --charset=utf8 --user=root --ask-pass --database=[database] t=[table] --alter='ADD `userId` int(10) unsigned NOT NULL DEFAULT '0', ADD `createStamp` int(10) unsigned NOT NULL DEFAULT '0', ADD KEY `createStamp` (`createStamp`), ADD KEY `userId` (`userId`)'
 ```
 
 ### Download
