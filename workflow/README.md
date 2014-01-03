@@ -1,5 +1,20 @@
 # Workflow
 
+We're using GitHub as a repository server and issue tracker.
+
+## Repository setup
+We're using a pull-request workflow where every developer has his own clone ("fork") of the original repository ("upstream").
+To propose a patch, the developer submits a pull-request from his *feature-branch* to the upstream repository.
+
+For this workflow to work properly, make sure to have two git remotes on your local repository clones:
+- *origin*: Your remote clone on github (e.g. `git@github.com:<username>/guides.git`)
+- *upstream*: The upstream clone on github (e.g. `git@github.com:cargomedia/guides.git`)
+
+If you initially clone from your github remote, the *origin* will already be set. To add the *upstream* remote, run something like:
+```
+git remote add upstream git@github.com:cargomedia/guides.git
+```
+
 ## Pull Requests
 - Keep as simple as possible
 - Split into isolable sub parts
