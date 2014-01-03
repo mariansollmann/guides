@@ -28,6 +28,10 @@ git fetch upstream
 git checkout --no-track -b my-feature upstream/master
 git push --set-upstream origin my-feature
 ```
+With cargomedia's mac deployment the above is available as a git alias:
+```
+git branch-feature my-feature
+```
 
 2. Work as usual:
 ```
