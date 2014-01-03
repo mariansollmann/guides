@@ -1,9 +1,5 @@
 # Workflow
 
-## Issues
-- Mention someone for feedback if needed
-- Link to related issues, dependencies or meta-issue
-
 ## Pull Requests
 - Keep as simple as possible
 - Split into isolable sub parts
