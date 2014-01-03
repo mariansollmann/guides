@@ -20,12 +20,15 @@ git remote add upstream git@github.com:cargomedia/guides.git
 - Split into isolable sub parts
 - Document dependencies between PRs
 
+### Example workflow
+
 1. Update your *upstream* remote, create a new branch off of `upstream/master` and push it to your *origin*:
 ```
 git fetch upstream
 git checkout --no-track -b my-feature upstream/master
 git push --set-upstream origin my-feature
 ```
+
 2. Work as usual:
 ```
 git commit
