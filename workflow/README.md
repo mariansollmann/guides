@@ -21,20 +21,12 @@ Further reading: http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html
 - Owner: Mention for merge
 - Merge upstream before asking for review
 - Merge commits: Check conflicts!
-- Is it tested?
-- Is it performant?
-- Is it maintainable and extensible?
+- Is it tested? Is it performant? Is it maintainable and extensible?
 - The owner and the reviewer(s) are responsible for the change and understand its consequences.
 
 ## App Release
 - Merge clean, isolable states
 - Master is always deployable
-- Check the latest CI test results at http://ci.cargomedia.ch:8080/
-- Changes should be deployed quickly
-- Changes since last release: Grep commits in the application as well as in CM with
-
-```bash
-git log --grep='Merge pull request' --pretty=format:'- %s %b (merged by %an)' | sed 's/Merge pull request \(#[0-9]*\) from \([^\/]*\)\/[^ ]*/\1 (\2)/' | less
-```
+- Changes should be deployed quickly. Some projects use [pulsar](https://github.com/cargomedia/pulsar-conf-cargomedia) for deployments.
 - Change-owners should be available during release
 - Monitor infrastructure performance, application performance and logs
