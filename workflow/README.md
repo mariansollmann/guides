@@ -37,7 +37,7 @@ If resolving an issue it is recommended to name your branch `issue-<issue-number
 git branch-feature issue-123
 ```
 
-2. Work as usual, then push and create a pull-request
+2. Work as usual, then push and create a pull-request:
 ```
 git commit
 git push
@@ -46,12 +46,12 @@ hub pull-request
 
 ### [github-issues](https://github.com/cargomedia/github-issues) workflow
 
-1. Open an issue, and create a corresponding branch off of `upstream/master`
+1. Open an issue, and create a corresponding branch off of `upstream/master`:
 ```
 gi open 'Issue title'
 ```
 
-2. Work as usual, then push and create a pull-request
+2. Work as usual, then push and create a pull-request:
 ```
 git commit
 gi push
