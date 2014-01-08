@@ -32,7 +32,6 @@ With cargomedia's mac deployment the above is available as a git alias:
 ```
 git branch-feature my-feature
 ```
-
 If resolving an issue it is recommended to name your branch `issue-<issue-number>`:
 ```
 git branch-feature issue-123
