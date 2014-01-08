@@ -20,7 +20,7 @@ git remote add upstream git@github.com:cargomedia/guides.git
 - Split into isolable sub parts
 - Document dependencies between PRs
 
-### Example workflow
+### git/hub workflow
 
 1. Update your *upstream* remote, create a new branch off of `upstream/master` and push it to your *origin*:
 ```
@@ -33,15 +33,25 @@ With cargomedia's mac deployment the above is available as a git alias:
 git branch-feature my-feature
 ```
 
-2. Work as usual:
+2. Work as usual, then push and create a pull-request
 ```
 git commit
 git push
+hub pull-request
 ```
 
-3. Create a pull-request:
+### [github-issues](https://github.com/cargomedia/github-issues) workflow
+
+1. Open an issue, and create a corresponding branch off of `upstream/master`
 ```
-hub pull-request
+gi open 'Issue title'
+```
+
+2. Work as usual, then push and create a pull-request
+```
+git commit
+gi push
+gi pull-request
 ```
 
 ## Commits
