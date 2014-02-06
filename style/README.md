@@ -3,6 +3,7 @@
 ## Formatting
 * Every file should end with a EOL
 * EOL is \n
+* Use two spaces for indentation (look around you, some projects use tabs).
 * Use the IntelliJ IDEA codestyle templates!
 
 ## Naming
@@ -47,15 +48,15 @@ Some/Example.php
 <?php
 
 abstract class Some_Example {
-	
+
 	const FOO = 1;
-	
+
 	/** @var int */
 	private $_fooBar;
-	
+
 	/** @var bool */
 	public static $enabled;
-	
+
 	/**
 	 * @param int $fooBar
 	 */
@@ -188,7 +189,7 @@ Use this translation method for words, short reusable sentences.
 ```
 ### Add Key Translation
 Use this translation method for internal generated words, long texts, unique sentences.
-```smarty 
+```smarty
 {translate '.language.key'}
 ```
 ```php
