@@ -33,6 +33,12 @@ Set up PhpStorm and/or IntelliJ IDEA
 Set the following settings:
 - Code Style: "cargomedia"
 
+Add yourself as a team member
+-----------------------------
+Open a [pull request](https://github.com/cargomedia/cargomedia.github.io) to add yourself as a team member at [cargomedia.ch](http://www.cargomedia.ch/).
+
+Pick an animal image from the [available ones](https://drive.google.com/a/cargomedia.ch/#folders/0B8-0u-pwGKs-aHdaSHBGcm4xcm8) or ask Christophe for a new one.
+
 Conferences and training
 ------------------------
 If you'd like to attend a conference please talk to us so we can find a good financial solution which makes sense for everyone.
