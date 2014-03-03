@@ -1,5 +1,6 @@
 # Guides
 
+* [Setup](/setup) When joining the company
 * [Workflow](/workflow)
 * [Style](/style)
 * [Tools](/tools)
