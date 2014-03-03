@@ -10,7 +10,8 @@ Accounts
 --------
 - [Google](https://www.google.com/a/cpanel/cargomedia.ch/Organization) Email and calendar
 - [Harvest](https://cargomedia.harvestapp.com/people) Time tracking, [assign to project](https://cargomedia.harvestapp.com/projects)
-- [HipChat](https://cargomedia.hipchat.com/admin/users)
+- [HipChat](https://cargomedia.hipchat.com/admin/users) Chat
+- [Sqwiggle](https://www.sqwiggle.com/) Videochat
 - [Github](https://github.com/organizations/cargomedia/teams)
 - [New Relic](https://rpm.newrelic.com/accounts/350429)
 
