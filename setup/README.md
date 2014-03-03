@@ -37,4 +37,4 @@ If you'd like to attend a conference please talk to us so we can find a good fin
 
 We'd like to conduct *internal trainings* more often. Talk to us with ideas!
 
-Use the [blog](http://www.cargomedia.ch/blog/) to let the team know about what you're doing (open a [pull-requests here](https://github.com/cargomedia/cargomedia.github.io/pulls)).
+Use the [blog](http://www.cargomedia.ch/blog/) to let the team know about what you're doing (open a [pull-request here](https://github.com/cargomedia/cargomedia.github.io)).
