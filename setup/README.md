@@ -24,6 +24,8 @@ git config --global user.name "First Last"
 
 Add your [SSH-key for your GitHub-account](https://github.com/settings/ssh).
 
+Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
+
 Make yourself acquainted with our [recommended git workflows](/workflow).
 
 Set up PhpStorm and/or IntelliJ IDEA
