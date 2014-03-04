@@ -73,12 +73,12 @@ openssl pkcs12 -in input.pfx -clcerts -nokeys -out output.pem
 **Create key+csr**
 
 ```
-openssl req -new -newkey rsa:2048 -nodes -keyout fuckbook.com.key -out fuckbook.com.csr -subj '/CN=*.fuckbook.com/C=CH'
+openssl req -new -newkey rsa:2048 -nodes -keyout *.cargomedia.ch.key -out *.cargomedia.ch.csr -subj '/CN=*.cargomedia.ch/C=CH'
 ```
 
 **Create key+pem**
 ```
-openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout fuckbook.com.key -out fuckbook.com.pem -subj '/CN=*.fuckbook.com'
+openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout *.cargomedia.ch.key -out *.cargomedia.ch.pem -subj '/CN=*.cargomedia.ch'
 ```
 
 **Output hash of certificate (used by apache for chain following)**
