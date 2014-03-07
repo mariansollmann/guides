@@ -127,3 +127,15 @@ echo "Copying to $HOST..."
 scp -pr -C -o CompressionLevel=9 /tmp/restore-db root@$HOST:/var/lib/mysql
 rm -rf /tmp/restore-db
 ```
+
+PhpStorm
+--------
+**PHPUnit Test Runner**
+
+Go to `Preferences > PHP > PHPUnit` and under `Test runner` check the checkbox next to `Default configuration file` and select the `phpunit.xml`
+inside the root folder of the project you're setting up.
+
+**Vagrant PhpStorm Tunnel**
+
+To run PHPUnit tests using PHP (installed in the Vagrant virtual machine) via ssh install
+[vagrant-phpstorm-tunnel](https://github.com/cargomedia/vagrant-phpstorm-tunnel) and follow the instructions to set it up.
