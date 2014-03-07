@@ -28,6 +28,8 @@ Add your [SSH-key for your GitHub-account](https://github.com/settings/ssh).
 
 Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
 
+Make public your [membership in the organisation](https://github.com/orgs/cargomedia/members) so you can access Jenkins.
+
 Make yourself acquainted with our [recommended git workflows](/workflow).
 
 Set up PhpStorm and/or IntelliJ IDEA
