@@ -12,7 +12,6 @@ Accounts
 - [Harvest](https://cargomedia.harvestapp.com/people) Time tracking, [assign to project](https://cargomedia.harvestapp.com/projects)
 - [iDoneThis](https://idonethis.com/cal/dev-6/members/)
 - [HipChat](https://cargomedia.hipchat.com/admin/users) Chat
-- [Sqwiggle](https://www.sqwiggle.com/) Videochat
 - [Github](https://github.com/organizations/cargomedia/teams)
 - [New Relic](https://rpm.newrelic.com/accounts/350429)
 
