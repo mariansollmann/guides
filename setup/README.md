@@ -16,6 +16,8 @@ Accounts
 - [Github](https://github.com/organizations/cargomedia/teams)
 - [New Relic](https://rpm.newrelic.com/accounts/350429)
 
+Please enable 2-factor authentication for [Github](https://github.com/settings/two_factor_authentication/configure) and [Google](https://www.google.com/settings/security) *now*.
+
 Set up git and GitHub
 ---------------------
 Configure git:
