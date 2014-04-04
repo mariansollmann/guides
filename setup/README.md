@@ -12,7 +12,7 @@ Accounts
 - [Harvest](https://cargomedia.harvestapp.com/people) Time tracking, [assign to project](https://cargomedia.harvestapp.com/projects)
 - [iDoneThis](https://idonethis.com/cal/dev-6/members/)
  - Write down your *accomplishments* and *time-consuming tasks* every evening. For an average worker we expect ~5 entries.
- - Make sure entries contain relevant information. Instead of `Talking to Bob` rather write `Discussing moon rocket propulsion problems with Bob`.
+ - Make sure entries contain relevant information. Instead of "Talking to Bob" rather write "Discussing moon rocket propulsion problems with Bob".
 - [HipChat](https://cargomedia.hipchat.com/admin/users) Chat
  - Stay online during working hours. Set to "Away" or "Do not disturb" when appropriate.
  - Create topic-based rooms often. They are cheap and can be deleted again.
