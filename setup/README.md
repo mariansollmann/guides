@@ -11,8 +11,18 @@ Accounts
 - [Google](https://www.google.com/a/cpanel/cargomedia.ch/Organization) Email and calendar
 - [Harvest](https://cargomedia.harvestapp.com/people) Time tracking, [assign to project](https://cargomedia.harvestapp.com/projects)
 - [iDoneThis](https://idonethis.com/cal/dev-6/members/)
+ - Write down your *accomplishments* and *time-consuming tasks* every evening. For an average worker we expect ~5 entries.
+ - Make sure entries contain relevant information. Instead of `Talking to Bob` rather write `Discussing moon rocket propulsion problems with Bob`.
 - [HipChat](https://cargomedia.hipchat.com/admin/users) Chat
+ - Stay online during working hours. Set to "Away" or "Do not disturb" when appropriate.
+ - Create topic-based rooms often. They are cheap and can be deleted again.
 - [Github](https://github.com/organizations/cargomedia/teams)
+ - [Unwatch](https://github.com/watching) as many repos as you feel comfortable with to not get flooded with emails. Consider unchecking "Automatically watch".
+ - Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
+ - Make your [organisation membership](https://github.com/orgs/cargomedia/members) public. This is necessary for developers to access Jenkins.
+ - Keep your comments concise.
+ - Only comment with relevant information (new conclusions, new insights or results), to spare everyone's inbox.
+ - Assign issues to yourself if you start working on something.
 - [New Relic](https://rpm.newrelic.com/accounts/350429)
 
 Please enable 2-factor authentication for [Github](https://github.com/settings/two_factor_authentication/configure) and [Google](https://www.google.com/settings/security) *now*.
@@ -26,10 +36,6 @@ git config --global user.name "First Last"
 ```
 
 Add your [SSH-key for your GitHub-account](https://github.com/settings/ssh).
-
-Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
-
-Make public your [membership in the organisation](https://github.com/orgs/cargomedia/members) so you can access Jenkins.
 
 Make yourself acquainted with our [recommended git workflows](/workflow).
 
