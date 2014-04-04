@@ -17,7 +17,7 @@ Accounts
  - Stay online during working hours. Set to "Away" or "Do not disturb" when appropriate.
  - Create topic-based rooms often. They are cheap and can be deleted again.
 - [Github](https://github.com/organizations/cargomedia/teams)
- - [Unwatch](https://github.com/watching) as many repos as you feel comfortable with for receiving less emails. Consider unchecking "Automatically watch".
+ - [Unwatch](https://github.com/watching) as many repos as you feel comfortable with, your inbox will thank you. Consider unchecking "Automatically watch".
  - Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
  - Make your [organisation membership](https://github.com/orgs/cargomedia/members) public. This is necessary for developers to access Jenkins.
  - Keep your comments concise.
