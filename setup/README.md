@@ -20,7 +20,7 @@ Accounts
  - [Unwatch](https://github.com/watching) as many repos as you feel comfortable with, your inbox will thank you. Consider unchecking "Automatically watch".
  - Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
  - Make your [organisation membership](https://github.com/orgs/cargomedia/members) public. This is necessary for developers to access Jenkins.
- - Keep your comments concise.
+ - Keep your comments concise. When commenting via email, make sure your [signature doesn't show up on Github](https://github.com/github/email_reply_parser#weird-signatures).
  - Only comment with relevant information (new conclusions, new insights or results), to spare everyone's inbox.
  - Assign issues to yourself if you start working on something.
 - [New Relic](https://rpm.newrelic.com/accounts/350429)
