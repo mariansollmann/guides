@@ -74,7 +74,7 @@ Further reading: http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html
 - The owner and the reviewer(s) are responsible for the change and understand its consequences.
 
 ## Merge
-- Make sure you add `Breaking:` prefix to your merge commit message when it is breaking the depended projects.
+- Add `Breaking:` as a prefix to the issue’s name when you know it’s going to break dependencies
 
 ## App Release
 - Merge clean, isolable states
