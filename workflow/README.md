@@ -73,8 +73,11 @@ Further reading: http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html
 - Is it tested? Is it performant? Is it maintainable and extensible?
 - The owner and the reviewer(s) are responsible for the change and understand its consequences.
 
-## App Release
+## Merging
 - Merge clean, isolable states
+- Add `Breaking:` as a prefix to the issue’s name when you know it’s going to break dependencies
+
+## App Release
 - Master is always deployable
 - Changes should be deployed quickly. Some projects use [pulsar](https://github.com/cargomedia/pulsar-conf-cargomedia) for deployments.
 - Change-owners should be available during release
