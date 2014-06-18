@@ -10,9 +10,10 @@ Accounts
 --------
 - [Google](https://www.google.com/a/cpanel/cargomedia.ch/Organization) Email and calendar
 - [Harvest](https://cargomedia.harvestapp.com/people) Time tracking, [assign to project](https://cargomedia.harvestapp.com/projects)
-- [iDoneThis](https://idonethis.com/cal/dev-6/members/)
- - Write down your *accomplishments* and *time-consuming tasks* every evening. For an average worker we expect ~5 entries.
+- [15Five](https://cargomedia.15five.com/) Weekly report
+ - *What did you get accomplished this week?*: Note down  *accomplishments* and *time-consuming tasks* during the week (~10 entries in total).
  - Make sure entries contain relevant information. Instead of "Talking to Bob" rather write "Discussing moon rocket propulsion problems with Bob".
+ - Submit the report on Friday.
 - [HipChat](https://cargomedia.hipchat.com/admin/users)
  - Stay online during working hours. Set to "Away" or "Do not disturb" when appropriate.
  - Create topic-based rooms often. They are cheap and can be deleted again.
