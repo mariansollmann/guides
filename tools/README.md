@@ -140,7 +140,7 @@ inside the root folder of the project you're setting up.
 To run PHPUnit tests using PHP (installed in the Vagrant virtual machine) via ssh install
 [vagrant-phpstorm-tunnel](https://github.com/cargomedia/vagrant-phpstorm-tunnel) and follow the instructions to set it up.
 
-** PHPUnit 4 incompatibility
+**PHPUnit 4 incompatibility**
 
 Instead of relying on the default `include-path` setting, use the `custom loader` option and specify the path to composer's autoload.php.
 
