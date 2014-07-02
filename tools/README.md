@@ -142,6 +142,6 @@ To run PHPUnit tests using PHP (installed in the Vagrant virtual machine) via ss
 
 **PHPUnit 4 incompatibility**
 
-Instead of relying on the default `include-path` setting, use the `custom loader` option and specify the path to composer's autoload.php.
+Instead of relying on the default `include-path` setting, use the `custom loader` option and specify the path to composer's `autoload.php`.
 
 ![PhpStorm screenshot](img/phpstorm-phpunit-configuration.png)
