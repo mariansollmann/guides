@@ -130,18 +130,11 @@ rm -rf /tmp/restore-db
 
 PhpStorm
 --------
-**PHPUnit Test Runner**
-
-Go to `Preferences > PHP > PHPUnit` and under `Test runner` check the checkbox next to `Default configuration file` and select the `phpunit.xml`
-inside the root folder of the project you're setting up.
-
 **Vagrant PhpStorm Tunnel**
 
-To run PHPUnit tests using PHP (installed in the Vagrant virtual machine) via ssh install
+To run scripts using PHP (installed in the Vagrant virtual machine) via ssh, install
 [vagrant-phpstorm-tunnel](https://github.com/cargomedia/vagrant-phpstorm-tunnel) and follow the instructions to set it up.
 
-**PHPUnit 4 incompatibility**
+**PHPUnit Test Configuration**
 
-Instead of relying on the default `include-path` setting, use the `custom loader` option and specify the path to composer's `autoload.php`.
-
-![PhpStorm screenshot](img/phpstorm-phpunit-configuration.png)
+Go to `Preferences > PHP > PHPUnit` and under `PHPUnit library` specify composer's `autoload.php` as custom loader. Under `Test runner` check the checkbox next to `Default configuration file` and select the `phpunit.xml` inside the root folder of the project you're setting up.
