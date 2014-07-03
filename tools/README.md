@@ -138,3 +138,4 @@ To run scripts using PHP (installed in the Vagrant virtual machine) via ssh, ins
 **PHPUnit Test Configuration**
 
 Go to `Preferences > PHP > PHPUnit` and under `PHPUnit library` specify composer's `autoload.php` as custom loader. Under `Test runner` check the checkbox next to `Default configuration file` and select the `phpunit.xml` inside the root folder of the project you're setting up.
+![PhpStorm screenshot](img/phpstorm-phpunit-configuration.png)
