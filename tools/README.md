@@ -112,8 +112,8 @@ scp -pr -C -o CompressionLevel=9 /tmp/restore-db root@$HOST:/var/lib/mysql
 rm -rf /tmp/restore-db
 ```
 
-PhpStorm
---------
+PhpStorm (version 8)
+--------------------
 **Vagrant PhpStorm Tunnel**
 
 To run scripts using PHP (installed in the Vagrant virtual machine) via ssh, install
