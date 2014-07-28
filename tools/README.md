@@ -96,26 +96,10 @@ rm -rf /Volumes/NO\ NAME/PRIVATE/AVCHD
 ffmpeg -i concat:"00001.MTS|00004.MTS|00005.MTS" -vcodec copy -acodec copy result.mp4
 ```
 
-Restoring a backup
-------------------
-**Shared files folder**
-
-This script restores the latest backup from `rdiff-backup` on the backup server to the storage server. Storage server needs to be publicly listening to the Internet via port 22
-```sh
-HOST="1.2.3.4"
-
-echo "Restoring latest backup..."
-rm -rf /tmp/restore-shared
-rdiff-backup --restore-as-of now /home/backup/shared /tmp/restore-shared
-
-echo "Copying to $HOST..."
-scp -pr -C -o CompressionLevel=9 /tmp/restore-shared root@$HOST:/raid/shared
-rm -rf /tmp/restore-shared
-```
-
-**Restoring the database files**
-
-This script gives only the big picture, it's not suitable to be run without modifying it
+rdiff-backup
+------------
+**Restoring database backup**
+This script gives only the big picture, it's not suitable to be run without modifying it.
 ```sh
 HOST="<IP ADDRESS OF DATABASE SERVER>"
 
@@ -130,6 +114,8 @@ rm -rf /tmp/restore-db
 
 PhpStorm
 --------
+Version 8 required.
+
 **Vagrant PhpStorm Tunnel**
 
 To run scripts using PHP (installed in the Vagrant virtual machine) via ssh, install

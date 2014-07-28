@@ -45,6 +45,8 @@ Set up PhpStorm and/or IntelliJ IDEA
 Set the following settings:
 - Code Style: "cargomedia"
 
+See also the [phpunit configuration](/tools#phpstorm) which should be set per project.
+
 Add yourself as a team member
 -----------------------------
 Open a [pull request](https://github.com/cargomedia/cargomedia.github.io) to add yourself as a team member on [cargomedia.ch](http://www.cargomedia.ch/).
