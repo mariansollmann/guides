@@ -33,8 +33,8 @@ Set up git and GitHub
 ---------------------
 Configure git:
 ```
-git config --global user.email email@cargomedia.ch
-git config --global user.name "First Last"
+git config --global user.email 'email@cargomedia.ch'
+git config --global user.name 'First Last'
 ```
 
 Add your [SSH-key for your GitHub-account](https://github.com/settings/ssh).
