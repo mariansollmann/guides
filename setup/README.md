@@ -16,6 +16,7 @@ Accounts
  - Submit the report on Friday.
 - [HipChat](https://cargomedia.hipchat.com/admin/users)
  - Stay online during working hours. Set to "Away" or "Do not disturb" when appropriate.
+ - Join "Off Topic" to say *hello* and *goodbye* to your co-workers.
  - Create topic-based rooms often. They are cheap and can be deleted again.
 - [Github](https://github.com/organizations/cargomedia/teams)
  - [Unwatch](https://github.com/watching) as many repos as you feel comfortable with, your inbox will thank you. Consider unchecking "Automatically watch".
