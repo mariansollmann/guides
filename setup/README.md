@@ -16,11 +16,12 @@ Accounts
  - Submit the report on Friday.
 - [HipChat](https://cargomedia.hipchat.com/admin/users)
  - Stay online during working hours. Set to "Away" or "Do not disturb" when appropriate.
+ - Join "Off Topic" to say *hello* and *goodbye* to your co-workers.
  - Create topic-based rooms often. They are cheap and can be deleted again.
 - [Github](https://github.com/organizations/cargomedia/teams)
  - [Unwatch](https://github.com/watching) as many repos as you feel comfortable with, your inbox will thank you. Consider unchecking "Automatically watch".
  - Configure [notification routing](https://github.com/settings/notifications) for using your company email address.
- - Make your [organisation membership](https://github.com/orgs/cargomedia/members) public. This is necessary for developers to access Jenkins.
+ - Make your [organisation membership](https://github.com/orgs/cargomedia/people) public. This is necessary for developers to access Jenkins.
  - Keep your comments concise. When commenting via email, make sure your [signature doesn't show up on Github](https://github.com/github/email_reply_parser#weird-signatures).
  - Only comment with relevant information (new conclusions, new insights or results), to spare everyone's inbox.
  - Assign issues to yourself if you start working on something.
@@ -32,8 +33,8 @@ Set up git and GitHub
 ---------------------
 Configure git:
 ```
-git config --global user.email email@cargomedia.ch
-git config --global user.name "First Last"
+git config --global user.email 'email@cargomedia.ch'
+git config --global user.name 'First Last'
 ```
 
 Add your [SSH-key for your GitHub-account](https://github.com/settings/ssh).
