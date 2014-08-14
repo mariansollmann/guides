@@ -12,7 +12,7 @@ Accounts
 - [Harvest](https://cargomedia.harvestapp.com/people) Time tracking, [assign to project](https://cargomedia.harvestapp.com/projects)
 - [15Five](https://cargomedia.15five.com/) Weekly report
  - *What did you get accomplished this week?*: Note down  *accomplishments* and *time-consuming tasks* during the week.
- - Make sure task descriptions are *comprehensible" to everyone on the team.
+ - Make sure task descriptions are *comprehensible* to everyone on the team.
  - Make sure entries contain relevant information. Instead of "Talking to Bob" rather write "Discussing moon rocket propulsion problems with Bob".
  - Submit the report on Friday.
 - [HipChat](https://cargomedia.hipchat.com/admin/users)
