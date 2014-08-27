@@ -75,7 +75,7 @@ Further reading: http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html
 
 ## Merging
 - Merge clean, isolable states
-- Add `Breaking:` as a prefix to the issue’s name when you know it’s going to break dependencies
+- Add `Breaking:` as a prefix to the merge's commit message on Github when you know it’s going to break dependencies
 
 ## App Release
 - Master is always deployable
